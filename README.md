@@ -2,7 +2,7 @@
 Python 2 and 3 compatible POSIX mkdir -p.
 
 ## Introduction
-POSIX `mkdir -p` command can create a directory recursively like Python's `os.makedirs`, but `mkdir -p` doesn't raise any error when the directory exists.
+POSIX `mkdir -p` command can create a directory and also all of its parent directories, like Python's `os.makedirs`, but `mkdir -p` doesn't raise any error when the directory exists.
 Therefore, the `mkdir_p` function in this package just use Python's `os.makedirs` and catch the error when the directory exists:
 ```python
 from mkdir_p import mkdir_p
