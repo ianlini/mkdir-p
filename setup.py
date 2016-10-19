@@ -8,7 +8,7 @@ long_description = ("See `github <https://github.com/ianlini/mkdir-p>`_ "
 
 setup(
     name='mkdir-p',
-    version="0.1.0",
+    version="0.1.1",
     description=description,
     long_description=long_description,
     author='ianlini',
